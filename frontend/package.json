@@ -1,0 +1,68 @@
+{
+    "name": "frontend",
+    "version": "3.2.1",
+    "private": true,
+    "homepage": "https://abcchoice.cafe/",
+    "proxy": "https://abcchoice.cafe",
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "@material-ui/core": "^4.12.3",
+        "@material-ui/icons": "^4.11.2",
+        "@material-ui/lab": "*",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "antd": "^4.16.13",
+        "axios": "^0.21.1",
+        "babel-preset-react": "^6.24.1",
+        "bootstrap": "^4.6.0",
+        "framer-motion": "^4.1.17",
+        "moment": "^2.29.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^1.6.1",
+        "react-bootstrap-dropdown-menu": "^1.1.23",
+        "react-cookie": "^4.1.1",
+        "react-dom": "^17.0.2",
+        "react-helmet": "^6.1.0",
+        "react-hook-form": "^7.9.0",
+        "react-iframe": "^1.8.0",
+        "react-popup-alert": "^2.0.0",
+        "react-redux": "^7.2.5",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^1.1.5",
+        "react-select": "^4.3.1",
+        "redux": "^4.1.0",
+        "redux-thunk": "^2.3.0",
+        "router-dom": "^2.2.1",
+        "semantic-ui-react": "^2.0.3",
+        "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "eslint-plugin-react-hooks": "^4.2.0"
+    }
+}

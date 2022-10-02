@@ -1,0 +1,4 @@
+ssh -i "abcchoice_new_key.pem" ubuntu@18.191.72.19
+
+
+

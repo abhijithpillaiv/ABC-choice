@@ -1,0 +1,69 @@
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.background{
+    background-image: url('../../../static/background.png');
+
+}
+
+.mainBoard{
+    background-image: url(../../../static/blackboard.jpg);
+    padding: 30px;
+}
+
+.subBoard{
+    background-image: url(../../../static/blackboard.jpg);
+    padding: 30px;
+}
+.subBoardRow{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.boardTitle{
+    color:green;
+    padding: 25px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+}
+.boardTitleMain{
+    color:green;
+    padding: 25px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+}
+.boardDes{
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+    width: auto;
+    height:auto;
+}
+.boardDes::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+.boardDesMain::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .boardTitle::first-letter {
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color:wheat;
+  }
+  
+.boardDesMain{
+    color: white;
+    text-align: center;
+    width: auto;
+}

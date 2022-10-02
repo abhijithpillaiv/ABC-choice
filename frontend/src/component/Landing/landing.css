@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  .container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color:#191919;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+  
+  /* @media  (width: 1700px) {
+    .img{
+      width: 140px;
+      height: auto;
+    }
+  }
+  @media (width: 1400px) {
+    .img{
+      width: 120px;
+    }
+  }
+  @media (width: 1300px) {
+    .img{
+      width: 80px;
+      
+    }
+  } */
+  @media (max-width: 991px) {
+
+  #id5{order:49;}
+  #id6{order:50;}
+  #id7{order:51;}
+  #id8{order:52;}
+  #id17{order:53;}
+  #id18{order:54;}
+  #id19{order:55;}
+  #id20{order:56;}
+  #id29{order:57;}
+  #id30{order:58;}
+  #id31{order:59;}
+  #id32{order:60;}
+  #id41{order:61;}
+  #id42{order:62;}
+  #id43{order:63;}
+  #id44{order:64;}
+  #id53{order:65;}
+  #id54{order:66;}
+  #id55{order:67;}
+  #id56{order:68;}
+  #id65{order:69;}
+  #id66{order:70;}
+  #id67{order:71;}
+  #id68{order:72;}
+  #id77{order:73;}
+  #id78{order:74;}
+  #id79{order:75;}
+  #id80{order:76;}
+  #id89{order:77;}
+  #id90{order:78;}
+  #id91{order:79;}
+  #id92{order:80;}
+  #id101{order:81;}
+  #id102{order:82;}
+  #id103{order:83;}
+  #id104{order:84;}
+  #id113{order:85;}
+  #id114{order:86;}
+  #id115{order:87;}
+  #id116{order:88;}
+  #id125{order:89;}
+  #id126{order:90;}
+  #id127{order:91;}
+  #id128{order:92;}
+  #id137{order:93;}
+  #id138{order:94;}
+  #id139{order:95;}
+  #id140{order:96;}
+
+  #id1{order: 1;}
+  #id2{order: 2;}
+  #id3{order: 3;}
+  #id4{order: 4;}
+    #id13{order: 5;}
+    #id14{order: 6;}
+    #id15{order: 7;}
+    #id16{order: 8;}
+  #id25{order:9;}
+  #id26{order:10;}
+  #id27{order:11;}
+  #id28{order:12;}
+    #id37{order:13;}
+    #id38{order:14;}
+  #id39{order:15;}
+  #id40{order:16;}
+  #id49{order:17;}
+  #id50{order:18;}
+  #id51{order:19;}
+  #id52{order:20;}
+  #id61{order:21;}
+  #id62{order:22;}
+  #id63{order:23;}
+  #id64{order:24;}
+  #id73{order:25;}
+  #id74{order:26;}
+  #id75{order:27}
+  #id76{order:28;}
+  #id85{order:29;}
+  #id86{order:30;}
+  #id87{order:31;}
+  #id88{order:32;}
+  #id97{order:33;}
+  #id98{order:34;}
+  #id99{order:35;}
+  #id100{order:36;}
+  #id109{order:37;}
+  #id110{order:38;}
+  #id111{order:39;}
+  #id112{order:40;}
+  #id121{order:41;}
+  #id122{order:42;}
+  #id123{order:43;}
+  #id124{order:44;}
+  #id133{order:45;}
+  #id134{order:46;}
+  #id135{order:47;}
+  #id136{order:48;}
+    }
+  
+    .img{
+     width: 100%;
+     height: 100%;
+    /* padding: 2px */
+    }
+
+    /* Account */
+
+    @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/22px "Lato", Arial, sans-serif;
+  background: #6394F8;
+}
+
+.lighter-text {
+  color: #ABB0BE;
+}
+
+.main-color-text {
+  color: #6394F8;
+}
+
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+
+.shopping-cart {
+  margin: 20px 0;
+  float: right;
+  background: white;
+  width: 200px;
+  position: relative;
+  border-radius: 3px;
+  padding: 20px;
+
+}
+.shopping-cart .shopping-cart-header {
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 15px;
+}
+.shopping-cart .shopping-cart-header .shopping-cart-total {
+  float: right;
+}
+.shopping-cart .shopping-cart-items {
+  padding-top: 20px;
+}
+.shopping-cart .shopping-cart-items li {
+  margin-bottom: 18px;
+}
+.shopping-cart .shopping-cart-items img {
+  float: left;
+  margin-right: 12px;
+}
+.shopping-cart .shopping-cart-items .item-name {
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.shopping-cart .shopping-cart-items .item-price {
+  color: #6394F8;
+  margin-right: 8px;
+}
+.shopping-cart .shopping-cart-items .item-quantity {
+  color: #ABB0BE;
+}
+
+.shopping-cart:after {
+  bottom: 100%;
+  left: 89%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: white;
+  border-width: 8px;
+  margin-left: -8px;
+}
+
+.cart-icon {
+  color: #515783;
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+
+.button {
+  background: #6394F8;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 25px 0 15px 0;
+}
+.button:hover {
+  background: #729ef9;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#dropdown-toggle{
+  height:102%;
+  width:102%;
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  top:0%;
+  right: 1%;
+}
